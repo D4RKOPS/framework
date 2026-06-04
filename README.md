@@ -1,6 +1,6 @@
 # API Testing Framework
 
-> **GitHub repo:** _Replace this line with the link once the repository is published._
+> **GitHub repo:** https://github.com/D4RKOPS/framework.git
 
 API testing framework built with **JavaScript + Playwright Test** that exercises the public **JSONPlaceholder** API (`https://jsonplaceholder.typicode.com`). It contains 9 automated tests (3 GET, 3 POST, 3 PUT) organized in a layered architecture.
 

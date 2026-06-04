@@ -1,0 +1,18 @@
+{
+  "name": "api-testing-framework",
+  "version": "1.0.0",
+  "description": "API testing framework using Playwright Test against JSONPlaceholder",
+  "scripts": {
+    "test": "playwright test",
+    "test:get": "playwright test tests/posts/posts.get.spec.js",
+    "test:post": "playwright test tests/posts/posts.post.spec.js",
+    "test:put": "playwright test tests/posts/posts.put.spec.js",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "dotenv": "^16.4.5"
+  }
+}
